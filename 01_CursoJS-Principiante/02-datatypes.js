@@ -34,6 +34,6 @@ console.log(`No soy profesor y el tipo de dato es: ${typeof isTeacher}`);
 console.log(`El valor de undefined es ${undefinedValue} y el tipo de dato es: ${typeof undefinedValue}`);
 console.log(`El valor de null es ${nullValue} y el tipo de dato es: ${typeof nullValue}`);
 
-// console.log(`El valor de symbol es ${mySymbol} y el tipo de dato es: ${typeof mySymbol}`);
-// console.log(`El valor de BigInt es ${myBigInt} y el tipo de dato es: ${typeof myBigInt}`);
-// console.log(`El valor de BigInt2 es ${myBigInt2} y el tipo de dato es: ${typeof myBigInt2}`);
+console.log(typeof mySymbol); // Symbol
+console.log(typeof myBigInt); // BigInt
+console.log(typeof myBigInt2); // BigInt
