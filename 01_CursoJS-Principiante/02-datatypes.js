@@ -25,7 +25,7 @@ let mySymbol = Symbol("mysymbol")
 let myBigInt = BigInt(817239871289371986589716389471628379612983761289376129)
 let myBigInt2 = 817239871289371986589716389471628379612983761289376129n
 
-// Mostrando los valores en variables y sus tipos de datos
+// Mostrando los valores en variables y sus tipos de datos utilizando interpolacion de cadenas
 console.log(`Mi nombre es ${myName} y el tipo de dato es: ${typeof myName}`);
 console.log(`Mi edad es ${age} y el tipo de dato es: ${typeof age}`);
 console.log(`Mi altura es ${height} y el tipo de dato es: ${typeof height}`);
