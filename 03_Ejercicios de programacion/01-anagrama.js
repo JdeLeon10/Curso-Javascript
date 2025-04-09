@@ -18,10 +18,14 @@ function anagrama(palabra1, palabra2) {
 
 // Ejemplos de uso
 console.log(anagrama('amor', 'roma')); // true
-console.log(anagrama('amor', 'Roma')); // true
-console.log(anagrama('amor', 'amores')); // false
-console.log(anagrama('amor', 'amor')); // false
-console.log(anagrama('amor', '')); // false
-console.log(anagrama('', '')); // false
-console.log(anagrama('a', 'a')); // false
-console.log(anagrama('a', 'b')); // false
+console.log(anagrama('hola', 'halo')); // true
+console.log(anagrama('roma', 'roma')); // false porque son iguales
+console.log(anagrama('casa', 'perro')); // false
+
+/* EXPLICACION DE CÓDIGO:
+    * 1. Convertimos ambas palabras a minúsculas para evitar problemas de mayúsculas/minúsculas.
+    * 2. Usamos `split('')` para convertir la cadena en un array de caracteres. // "roma" → ['r', 'o', 'm', 'a']
+    * 3. Usamos `sort()` para ordenar los caracteres alfabéticamente. // ['r', 'o', 'm', 'a'] → ['a', 'm', 'o', 'r']
+    * 4. Usamos `join('')` para volver a unir los caracteres en una cadena.
+    * 5. Comparamos las dos cadenas ordenadas y verificamos que no sean iguales.
+*/
