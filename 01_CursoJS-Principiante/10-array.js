@@ -1,6 +1,9 @@
-// ESTRUCTURAS DE DATOS
-
-// array 
+/*
+    array
+    - Un array es una lista de elementos que pueden ser de cualquier tipo (números, cadenas, objetos, etc.).
+    - Los elementos de un array pueden ser accedidos mediante su índice (posición en la lista).
+    - Un array puede contener elementos duplicados.
+*/
 
 // Declaracion de un array
 let myArray = [1, 2, 3]
